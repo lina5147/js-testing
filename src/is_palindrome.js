@@ -4,8 +4,6 @@ const isPalindrome = function (text) {
 
 	const newText = text.replace(/[^A-Z0-9]/ig, '').toLowerCase();
 
-	console.log(newText);
-
 	let left = 0;
 	let right = newText.length - 1;
 

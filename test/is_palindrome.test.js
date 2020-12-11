@@ -39,7 +39,7 @@ describe('isPangram()', () => {
 
   });
 
-  test('will return false for non-palindrom long phrases with spaces and puntuation', () => {
+  test('will return false for non-palindrome long phrases with spaces and puntuation', () => {
     
     // Arrange
     const palindromeWord = 'A man, a plan, a canal: Panam';
